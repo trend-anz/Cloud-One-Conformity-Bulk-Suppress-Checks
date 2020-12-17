@@ -16,18 +16,18 @@ Suppression Message:
 - CC_SUPPRESSION_NOTE (defaults to "Bulk Suppression Script")
 
 Checks API Filters:
-CC_FILTER_CATEGORIES
-CC_FILTER_COMPLIANCES
-CC_FILTER_NEWERTHANDAYS
-CC_FILTER_OLDERTHANDAYS
-CC_FILTER_REGIONS
-CC_FILTER_RISKLEVELS
-CC_FILTER_RULEIDS (required to prevent suppression of everything when not supplied)
-CC_FILTER_SERVICES
-CC_FILTER_STATUSES (defaults to "FAILURE")
-CC_FILTER_SUPPRESSED (defaults to "false" to skip already suppressed findings)
-CC_FILTER_SUPPRESSEDFILTERMODE (defaults to "v2")
-CC_FILTER_TAGS 
+- CC_FILTER_CATEGORIES
+- CC_FILTER_COMPLIANCES
+- CC_FILTER_NEWERTHANDAYS
+- CC_FILTER_OLDERTHANDAYS
+- CC_FILTER_REGIONS
+- CC_FILTER_RISKLEVELS
+- CC_FILTER_RULEIDS (required to prevent suppression of everything when not supplied)
+- CC_FILTER_SERVICES
+- CC_FILTER_STATUSES (defaults to "FAILURE")
+- CC_FILTER_SUPPRESSED (defaults to "false" to skip already suppressed findings)
+- CC_FILTER_SUPPRESSEDFILTERMODE (defaults to "v2")
+- CC_FILTER_TAGS 
 
 ## Usage
 
