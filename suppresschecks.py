@@ -84,4 +84,4 @@ for check in checkstosuppress:
     }
     jsonbody = json.dumps(suppressbody)
     suppress = session.patch(checkurl, headers=headers, data=jsonbody)
-    print(json.dumps(suppress.text, indent=2))
+    print("Received API response code of " + str(suppress.status_code) + " for suppress of check ID: " + id)
