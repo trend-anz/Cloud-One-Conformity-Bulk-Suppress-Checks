@@ -46,7 +46,7 @@ params = {
     "page[size]": CC_PAGESIZE,
     "page[number]": CC_PAGENUMBER,
 }
-# def get_account_checks():
+
 payload = {}
 headers = {
     "Content-Type": "application/vnd.api+json",
@@ -84,4 +84,9 @@ for check in checkstosuppress:
     }
     jsonbody = json.dumps(suppressbody)
     suppress = session.patch(checkurl, headers=headers, data=jsonbody)
-    print("Received API response code of " + str(suppress.status_code) + " for suppress of check ID: " + id)
+    print(
+        "Received API response code of "
+        + str(suppress.status_code)
+        + " for suppress of check ID: "
+        + id
+    )
