@@ -35,7 +35,7 @@ Checks API Filters:
 ```
 pip3 install -r requirements.txt
 ```
-2. Set your environment variables for your desired filters:
+2. Set your environment variables for your Conformity account and desired filters for the checks query:
 Example to suppress all failed checks older than 7 days for the CFM-002 rule.
 ```
 export CC_APIKEY=asdfasdfksjadfkljaDUMMYAPIKEY
