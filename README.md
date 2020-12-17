@@ -40,7 +40,7 @@ Example to suppress all failed checks older than 7 days for the CFM-002 rule.
 ```
 export CC_APIKEY=asdfasdfksjadfkljaDUMMYAPIKEY
 export CC_ACCOUNTIDS=i7adfakeID
-export CC_RULEIDS=Config-002
+export CC_RULEIDS=CFM-002
 export CC_FILTER_OLDERTHANDAYS=7
 ```
 
