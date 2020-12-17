@@ -44,7 +44,7 @@ export CC_RULEIDS=Config-002
 export CC_FILTER_OLDERTHANDAYS=7
 ```
 
-Run the script:
+3. Run the script:
 ```
 python3 suppresschecks.py
 ```
