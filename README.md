@@ -51,9 +51,9 @@ python3 suppresschecks.py
 
 Example Response:
 ```
-Received API response code of 200 for check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-east-1:CloudConformity
-Received API response code of 200 for check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-east-1:CloudConformityMonitoring
-Received API response code of 200 for check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-west-1:CloudConformityMonitoring
+Received API response code of 200 for suppression of check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-east-1:CloudConformity
+Received API response code of 200 for suppression of check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-east-1:CloudConformityMonitoring
+Received API response code of 200 for suppression of check ID: ccc:i7adfakeID:CFM-002:CloudFormation:us-west-1:CloudConformityMonitoring
 ```
 
 

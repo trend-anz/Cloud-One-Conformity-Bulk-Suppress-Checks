@@ -17,8 +17,8 @@ CC_SUPPRESSION_NOTE = os.environ.get("CC_SUPPRESSION_NOTE", "Bulk Suppression Sc
 # Checks API Filters
 CC_FILTER_CATEGORIES = os.environ.get("CC_FILTER_CATEGORIES", "")
 CC_FILTER_COMPLIANCES = os.environ.get("CC_FILTER_COMPLIANCES", "")
-CC_FILTER_CREATEDLESSTHAN = os.environ.get("CC_FILTER_CREATEDLESSTHAN", "")
-CC_FILTER_CREATEDMORETHAN = os.environ.get("CC_FILTER_CREATEDMORETHAN", "")
+CC_FILTER_NEWERTHANDAYS = os.environ.get("CC_FILTER_NEWERTHANDAYS", "")
+CC_FILTER_OLDERTHANDAYS = os.environ.get("CC_FILTER_OLDERTHANDAYS", "")
 CC_FILTER_REGIONS = os.environ.get("CC_FILTER_REGIONS", "")
 CC_FILTER_RISKLEVELS = os.environ.get("CC_FILTER_RISKLEVELS", "")
 CC_FILTER_RULEIDS = os.environ["CC_FILTER_RULEIDS"]
@@ -33,8 +33,8 @@ params = {
     "accountIds": CC_ACCOUNTIDS,
     "filter[categories]": CC_FILTER_CATEGORIES,
     "filter[compliances]": CC_FILTER_COMPLIANCES,
-    "filter[createdLessThanDays]": CC_FILTER_CREATEDLESSTHAN,
-    "filter[createdMoreThanDays]": CC_FILTER_CREATEDMORETHAN,
+    "filter[newerThanDays]": CC_FILTER_NEWERTHANDAYS,
+    "filter[olderThanDays]": CC_FILTER_OLDERTHANDAYS,
     "filter[regions]": CC_FILTER_REGIONS,
     "filter[riskLevels]": CC_FILTER_RISKLEVELS,
     "filter[ruleIds]": CC_FILTER_RULEIDS,
@@ -87,6 +87,6 @@ for check in checkstosuppress:
     print(
         "Received API response code of "
         + str(suppress.status_code)
-        + " for suppress of check ID: "
+        + " for suppression of check ID: "
         + id
     )
