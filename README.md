@@ -1,7 +1,7 @@
 # Cloud-One-Conformity-Bulk-Suppress-Checks
 ## Script Overview
 
-This script allows you to suppress findings in bulk based on results returned from the * [Cloud One Conformity Checks API](https://github.com/cloudconformity/documentation-api/blob/master/Checks.md) endpoint.
+This script allows you to suppress findings in bulk based on results returned from the [Cloud One Conformity Checks API](https://github.com/cloudconformity/documentation-api/blob/master/Checks.md) endpoint.
 
 ***IMPORTANT:***
 This script will suppress ALL findings returned based on the filters you provide, please ensure you filter your results correctly with filter variables.
