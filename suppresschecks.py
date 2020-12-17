@@ -80,7 +80,7 @@ for check in checkstosuppress:
             "type": "checks",
             "attributes": {"suppressed": True, "suppressed-until": None},
         },
-        "meta": {"note": "bulk suppression"},
+        "meta": {"note": CC_SUPPRESSION_NOTE},
     }
     jsonbody = json.dumps(suppressbody)
     suppress = session.patch(checkurl, headers=headers, data=jsonbody)
